@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f2f2f2;
+  }
+  
+  .flex-item {
+    background-color: #ffffff;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    flex: 1;
+  }
+  
+  .flex-item img {
+    width: 100%; /* Adjust based on your preference */
+    height: auto;
+    transition: transform 0.2s; /* Smooth zoom on hover */
+  }
+  
+  .flex-item a:hover img {
+    transform: scale(1.05); /* Zoom effect on hover */
+  }
+  
